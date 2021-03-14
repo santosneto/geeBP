@@ -1,0 +1,23 @@
+Package: geeBP
+Type: Package
+Title: Beta Prime Generalized Estimating Equations
+Version: 0.1.0
+Authors@R: person("João", "Freitas", email = "jvbfreitas@ime.unicamp.br", role = c("aut", "cre"))
+Description: This package includes the estimation of mean model parameters, 
+    a residual analysis, global and local influences diagnostic tools
+Depends:
+    Matrix,
+    Formula,
+    ggplot2,
+    gamlss,
+    gamlss.dist,
+    gee,
+    mvtnorm,
+    extraDistr,
+    matrixcalc,
+    MASS,
+    LaplacesDemon,
+    aod,
+    pracma
+License: GPL-3
+LazyData: true
